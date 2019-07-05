@@ -1,0 +1,207 @@
+.Ak {
+  font-size: 24px;
+  border: 3px solid #957b5f;
+  color: #957b5f;
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase; }
+  .Ak:hover {
+    text-decoration: none;
+    color: #957b5f; }
+
+.menu_link--start {
+  color: #957b5f; }
+  .menu_link--start:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.Ak--Ak_name {
+  color: #957b5f;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .Ak--Ak_name:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.menu_link {
+  color: grey ; }
+  .menu_link:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.menu {
+  padding-top: 40px; }
+.phone{
+  background-color: #2b2b2b;
+  padding-bottom: 70px;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #D5D5D5;
+  padding-top: 80px;
+  padding-bottom: 40px;
+   text-align: left;
+   
+  } 
+.info_company{
+ padding-top: 100px;
+  color: #D5D5D5;
+}
+h2{
+  padding-top: 70px;
+  text-transform: uppercase;
+  color: #D5D5D5;
+  padding-bottom: 30px;
+}
+.job{color: #D5D5D5;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-top: 20px;
+ position: relative;
+ left: -170px;
+}
+.name_job{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #957b5f;
+  font-family: 'Rubik Mono One', sans-serif;
+   position: relative;
+ left: -188px;
+}
+
+.row--row_jobs{
+  padding-top: 51px;
+}
+.footer {
+  background-color: #000000;
+  color: #808080; }
+
+.footer_text {
+  color: #808080;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  padding-top: 50px; }
+
+.fot_numb {
+  line-height: 1.5em;
+  letter-spacing: normal;
+  font-size: 19px; }
+
+.email {
+  color: #ffffff;
+  background-color: black;
+  width: 197px; }
+
+.name_txt {
+  color: #ffffff;
+  background-color: black;
+  margin-top: 5px;
+  width: 197px; }
+
+.message {
+  background-color: black;
+  margin-top: 5px;
+  width: 399px; }
+
+.btn {
+background-color: #957b5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: 296px; }
+
+textarea {
+  color: #ffffff;
+  width: 400px; }
+
+.menu_link--opop{
+  margin-right: 40px;
+   color: grey ;
+}
+.menu_link--opop:hover {
+    color: #957b5f;
+    text-decoration: none; }
+.contact_from {
+  margin-left: 140px; }
+
+.nap {
+  margin-top: -60px;
+  color: #808080;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+form {
+  display: inline-block; }
+
+.footer_social {
+  top: 100px;
+  padding-right: 4px;
+  color: #808080;
+  font-size: 20px;
+  margin-top: 40px; }
+  .footer_social:hover {
+    color: #957b5f;
+    text-decoration: none; }
+@media(max-width: 992px){
+   .menu_btn{
+    margin-top: 40px;
+font-size: 19px;
+   }
+   .names_project{
+    margin-left: 50px;
+    font-size: 19px;
+    letter-spacing: normal;
+    text-align: left;
+
+   }
+ .view{
+  position: absolute;
+  right: 50px;
+ }
+.contact_from{
+  margin-top: 60px;
+}
+.fot_numb{
+  text-align: center;
+}
+.alol{
+  margin:0 auto;
+}
+.nap{
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer_text{
+  color: #ffffff;
+  text-transform: uppercase;
+margin-left: 140px;
+}
+.media_margin{
+  margin-top: 20px;
+}
+.job{
+  text-align: center;
+}
+.name_job{
+  text-align: center;
+}
+
+}
+@media (max-width: 551px){
+  .menu_btn{
+ 
+font-size: 30px;
+   }
+  .media_margin{
+;
+  font-size: 28px;
+}

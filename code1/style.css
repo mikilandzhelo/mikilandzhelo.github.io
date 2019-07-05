@@ -1,0 +1,219 @@
+.phone {
+  background-image: url(phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh; }
+
+.Ak {
+  font-size: 24px;
+  border: 3px solid #957b5f;
+  color: #957b5f;
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase; }
+  .Ak:hover {
+    text-decoration: none;
+    color: #957b5f; }
+
+.menu_link--start {
+  margin-right: 40px;
+  color: #957b5f; }
+  .menu_link--start:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+
+.Ak--Ak_name {
+  color: #957b5f;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .Ak--Ak_name:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.menu_link {
+  color: grey ; }
+  .menu_link:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.menu {
+  padding-top: 40px; }
+
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 40px; }
+
+.project {
+  background-color: #2b2b2b
+
+   }
+
+.red{
+  padding-bottom: 60px;
+}
+.info_project {
+  max-width: 475px;
+  justify-content: left;
+  margin-top: 50px;
+  color: #957b5f;
+  font-size: 32px;
+  letter-spacing: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.view {
+
+  font-size: 19px;
+  margin-top: 300px;
+  right: -100px;
+  color: #ffffff; }
+  .view:hover {
+    color: #ffffff;
+    text-decoration: none; }
+
+.names_project {
+  display: flex;
+  margin-left: 80px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 29px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #957b5f; }
+  .names_project:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+
+
+.info_project--end {
+  padding-top: 40px; }
+
+.footer {
+  background-color: #000000;
+  color: #808080; }
+
+.footer_text {
+  color: #808080;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  padding-top: 50px; }
+
+.fot_numb {
+  line-height: 1.5em;
+  letter-spacing: normal;
+  font-size: 19px; }
+
+.email {
+  color: white ;
+  background-color: black;
+  width: 197px; }
+
+.name_txt {
+  color: white;
+  background-color: black;
+  margin-top: 5px;
+  width: 197px; }
+
+.message {
+  background-color: black;
+  margin-top: 5px;
+  width: 399px; }
+
+.btn {
+  background-color: #957b5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: 296px; }
+
+textarea {
+  color: #ffffff;
+  width: 400px; }
+
+.contact_from {
+  margin-left: 140px; }
+
+.nap {
+  margin-top: -60px;
+  color: #808080;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+form {
+  display: inline-block; }
+
+.footer_social {
+  top: 100px;
+  padding-right: 4px;
+  color: #808080;
+  font-size: 20px;
+  margin-top: 40px; }
+  .footer_social:hover {
+    color: #957b5f;
+    text-decoration: none; }
+  .info_project_img{
+  text-align: left;
+  }
+@media(max-width: 992px){
+   .menu_btn{
+    margin-top: 40px;
+font-size: 19px;
+   }
+   .names_project{
+    margin-left: 50px;
+    font-size: 19px;
+    letter-spacing: normal;
+    text-align: left;
+
+   }
+ .view{
+  position: absolute;
+  right: 50px;
+ }
+.contact_from{
+  margin-top: 60px;
+}
+.fot_numb{
+  text-align: center;
+}
+.alol{
+  margin:0 auto;
+}
+.nap{
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer_text{
+  color: #ffffff;
+  text-transform: uppercase;
+margin-left: 140px;
+}
+.media_margin{
+  margin-top: 20px;
+ 
+}
+}
+@media (max-width: 551px){
+  .menu_btn{
+ 
+font-size: 30px;
+   }
+  .media_margin{
+;
+  font-size: 30px;
+}

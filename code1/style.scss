@@ -1,0 +1,177 @@
+
+//$colors : 957b5f--brown 2b2b2b--greyphone
+$cbrown: #957b5f;
+$tda: none;
+$width: 30%;
+
+@mixin menu_dsn{
+	color :#957b5f;
+&:hover{
+	color :#957b5f;
+	text-decoration :none ;
+}
+}
+
+.phone{
+	background-image: url(phone.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+
+}
+.Ak{
+	font-size: 24px;
+	border: 3px solid #957b5f;
+	color: #957b5f;
+	padding:  5px 5px 5px 5px;
+	text-transform: uppercase;
+
+&:hover{
+text-decoration: $tda;
+color: #957b5f;
+}
+}
+
+.menu_link--start{
+	color: #957b5f;
+	&:hover{
+	color :grey;
+	text-decoration :none ;
+}
+}
+
+.Ak--Ak_name{
+	@include menu_dsn;
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+}
+
+.menu_link{
+	@include menu_dsn;
+	color : #957b5f;
+}
+
+.menu{
+	padding-top: 40px;
+}
+
+h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ffffff;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.project{
+	background-color: #2b2b2b;
+
+}
+.info_project{
+	justify-content: center;
+		margin-bottom : 70px;
+	
+margin-top: 50px ;
+  color:#957b5f ;
+ font-size: 32px;
+ letter-spacing: 3px;
+ display: flex;
+
+}
+
+.view{
+	font-size: 19px;
+	margin-top: 300px;
+	right:  -100px;
+	color: #ffffff;
+   
+	&:hover{
+	color: #ffffff;
+	text-decoration :none ;
+}
+}
+.names_project{
+	margin-right: auto;
+padding-top: 40px;
+	text-align: left;
+	font-size: 29px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Rubik Mono One', sans-serif;
+@include menu_dsn;
+}
+.date_project{
+	color: #ffffff;
+	font-size: 18px;
+}
+.info_project--end{
+	padding-top: 40px;
+}
+.footer{ 
+ 
+	background-color: #000000;
+	color: #808080;
+}
+.footer_text{
+	color: #808080;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	padding-top: 50px;
+}
+.fot_numb{
+	line-height: 1.5em;
+letter-spacing: normal;
+font-size: 19px;}
+.email{
+	background-color: black;
+	width: 197px;
+}
+.name_txt{
+	background-color: black;
+	margin-top: 5px;
+	width: 197px;
+}
+.message{
+	background-color: black;
+	margin-top: 5px;
+	
+	width: 399px;
+}
+.btn{
+	background-color: $cbrown  ;
+	display: flex ;
+	justify-content: flex-end;
+	margin-left: 296px; 
+}
+textarea{
+	color: #ffffff;
+	width: 400px;
+}
+.contact_from{
+	margin-left: 140px;
+}
+.nap{
+	margin-top: -60px;
+	color: #808080;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+form{
+	display: inline-block;
+}
+.footer_social{
+	
+	top: 100px;
+	padding-right: 4px;
+	color: #808080;
+	font-size: 20px;
+	margin-top: 40px;
+	&:hover{
+	color :#957b5f;
+	text-decoration :none ;
+}
