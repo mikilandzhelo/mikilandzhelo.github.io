@@ -1,0 +1,198 @@
+.Ak {
+  font-size: 24px;
+  border: 3px solid #957b5f;
+  color: #957b5f;
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase; }
+  .Ak:hover {
+    text-decoration: none;
+    color: #957b5f; }
+
+.menu_link--start {
+  color: #957b5f; }
+  .menu_link--start:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.Ak--Ak_name {
+  color: #957b5f;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .Ak--Ak_name:hover {
+    color: #957b5f;
+    text-decoration: none; }
+.menu_link--opop{
+  margin-right: 40px;
+   color: grey ;
+}
+.menu_link--opop:hover {
+    color: #957b5f;
+    text-decoration: none; }
+.menu_link {
+  color: grey ; }
+  .menu_link:hover {
+    color: #957b5f;
+    text-decoration: none; }
+
+.menu {
+  padding-top: 40px; }
+.phone{
+  background-color: #2b2b2b;
+  padding-bottom: 70px;
+}
+
+.fotorama{
+
+margin-top: 50px;
+margin-left: 33px;
+}
+.about_project{
+  margin-top: 30px;
+  margin-left: 33px;
+}
+.city_project{
+ color: #D5D5D5;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #957B5F;
+  font-family: 'Rubik Mono One', sans-serif; }
+.date_project{
+  letter-spacing: 7px;
+  color: #ffffff;}  
+.again_portifio{
+  margin-bottom: 30px;
+    color: #D5D5D5;
+}
+.again_portifio:hover{
+  color: #957B5F;
+  text-decoration: none;
+}
+
+
+.footer {
+  background-color: #000000;
+  color: #808080; }
+
+.footer_text {
+  color: #808080;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  padding-top: 50px; }
+
+.fot_numb {
+  line-height: 1.5em;
+  letter-spacing: normal;
+  font-size: 19px; }
+
+.email {
+  color: white ;
+  background-color: black;
+  width: 197px; }
+
+.name_txt {
+  background-color: black;
+  margin-top: 5px;
+  width: 197px; 
+color: white ;}
+
+.message {
+  background-color: black;
+  margin-top: 5px;
+  width: 399px; }
+
+.btn {
+  background-color: #957b5f;
+  
+  margin-left: 296px; }
+
+textarea {
+  color: #ffffff;
+  width: 400px; }
+
+.contact_from {
+  margin-left: 140px; }
+
+.nap {
+  margin-top: -60px;
+  color: #808080;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+form {
+  display: inline-block; }
+
+.footer_social {
+  top: 100px;
+  padding-right: 4px;
+  color: #808080;
+  font-size: 20px;
+  margin-top: 40px; }
+  .footer_social:hover {
+    color: #957b5f;
+    text-decoration: none; }
+.container--two{
+  margin-bottom: 60px;
+}  
+
+@media(max-width: 992px){
+   .menu_btn{
+    margin-top: 40px;
+font-size: 19px;
+   }
+   .names_project{
+    margin-left: 50px;
+    font-size: 19px;
+    letter-spacing: normal;
+    text-align: left;
+
+   }
+ .view{
+  position: absolute;
+  right: 50px;
+ }
+.contact_from{
+  margin-top: 60px;
+}
+.fot_numb{
+  text-align: center;
+}
+.alol{
+  margin:0 auto;
+}
+.nap{
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer{
+  padding-bottom: 700px;
+}
+.footer_text{
+  color: #ffffff;
+  text-transform: uppercase;
+margin-left: 140px;
+}
+.media_margin{
+  margin-top: 20px;
+}
+
+}
+@media (max-width: 551px){
+  .menu_btn{
+ 
+font-size: 30px;
+   }
+  .media_margin{
+;
+  font-size: 30px;
+}
+
+}
