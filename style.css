@@ -1,7 +1,9 @@
-*{
-	margin: 0;
-	padding: 0;
+
+html, body{
+margin: 0;
+padding: 0
 }
+
 .olol{
 	color: white;
 
@@ -97,11 +99,14 @@ position: absolute;
 
 }
 .blogpost{
-
+width: 50px;
 margin-bottom: 100px;
 	height: 150px;
 	background-color: white;
 	
+}
+.a2a2{
+	width: 160px;
 }
 
 .contacts{
@@ -162,7 +167,7 @@ footer{
 }
 .central{
 	width: 100vh;
-	height: 600px;
+	height: 00px;
 	background-color:white;
 }
 .contacts{
@@ -174,6 +179,11 @@ footer{
 }
 .contact_line{
 	width: 100%;
+}
+.a2a2{
+	padding-top: 100px;
+	width: 300px;
+	padding-left: 50px;
 }
 
 }
