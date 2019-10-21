@@ -139,7 +139,7 @@ footer{
 	height: 100px;
 	background-color: black;
 }*/
-/*@media (max-width: 551px){
+@media (max-width: 551px){
  
 
  
@@ -150,5 +150,16 @@ footer{
 	background-color: grey;
 
 }
+.last_blog{
+	width: 100vh;
+	height: 1000px;
+	background-color: grey;
 
-}*/
+}
+.central{
+	width: 100vh;
+	height: 800px;
+	background-color:white;
+}
+
+}
