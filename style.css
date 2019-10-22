@@ -123,9 +123,8 @@ footer{
 
 }
 .footer_text{
-	padding-top: 30px;
-	justify-content: center;
-	margin-left: 500px;
+	
+	margin-left: 50px;
 	
 }
 .about_first{
@@ -144,6 +143,30 @@ footer{
 	height: 100px;
 	background-color: black;
 }*/
+@media ( max-width: 1199px){
+	.last_blog{
+
+	height: 1200px;
+	
+
+}
+.blogpost{
+	max-width: 50px;
+}
+.contact_line{
+	width: 100%;
+}
+.footer_text{
+	padding-top: 30px;
+
+  margin: 0 auto;
+	
+}
+.row_contacts{
+	padding-left: 50px;
+}
+
+}
 @media (max-width: 551px){
  
 
@@ -185,8 +208,6 @@ width: 100vh;
   margin: 0 auto;
 	
 }
-
-	
 .row_contacts{
 	padding-left: 50px;
 }
