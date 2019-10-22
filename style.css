@@ -32,6 +32,7 @@
     
 }
 .pos{
+	display: flex;
 	position: absolute;
 
     top: 65%;
@@ -122,6 +123,11 @@ footer{
 
 
 }
+.ff{
+	width: 50px;
+	height: 123px;
+	background-color: red;
+}
 .footer_text{
 	
 	margin-left: 50px;
@@ -169,7 +175,10 @@ footer{
 }
 @media (max-width: 551px){
  
-
+.pos{
+	left: 60;
+	transform: none;
+}
  
  .van{
 
